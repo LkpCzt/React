@@ -1,0 +1,74 @@
+/* 弹窗 start */
+.PopUpAddClient {
+	width: 600px;
+	height: 406px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	z-index: 104;
+}
+.PopUpAddClient>.myForm {
+	width: 494px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.PopUpAddClient>.myForm>span {
+	display: inline-block;
+	width: 57px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #32405f;
+	text-align: right;
+	margin-right: 17px;
+}
+.PopUpAddClient>.myForm>input, textarea, select {
+	width: 160px;
+	height: 32px;
+	border: 1px solid #f1f1f1;
+	vertical-align: top;
+	outline: medium;
+	background-color: white;
+}
+.PopUpAddClient>.myForm>input:focus, textarea:focus, select:focus {
+	border: 1px solid rgb(173, 220, 196);
+}
+.PopUpAddClient>.myForm>textarea {
+	max-width: 160px;
+	height: 80px;
+	outline: medium;
+	resize: none;
+}
+.tr1, .tr2 {
+	margin-bottom: 16px;
+}
+.ml26 {
+	margin-left: 26px;
+}
+.PopUpAddClient button {
+	width: 84px;
+	height: 28px;
+	background-color: white;
+	border: 1px solid #bfc4c8;
+	color: #bfc4c8;
+	outline: medium;
+	margin-top: 50px;
+}
+.concel {
+	margin-left: 158px;
+	margin-right: 38px;
+}
+.Confirm {
+	background-color: #04be5b !important;
+	color: white !important;
+}
+input:disabled {
+	background-color: gray !important;
+}
+select:disabled {
+	background-color: gray !important;
+}

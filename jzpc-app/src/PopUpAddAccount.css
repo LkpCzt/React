@@ -1,0 +1,59 @@
+.PopUpAddAccount {
+	width: 600px;
+	height: 406px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	z-index: 104;
+}
+.PopUpAddAccount>.tr1 {
+	margin-top: 60px;
+	margin-bottom: 32px;
+}
+.PopUpAddAccount>.tr2, .tr3 {
+	margin-bottom: 32px;
+}
+.PopUpAddAccount p {
+	display: inline-block;
+	width: 84px;
+	line-height: 32px;
+	font-size: 14px;
+	text-align: right;
+	margin-right: 16px;
+	color: #32405f;
+}
+.PopUpAddAccount input, select {
+	width: 160px;
+	height: 32px;
+	border: 1px solid #f1f1f1;
+}
+.PopUpAddAccount input:focus, select:focus {
+	border: 1px solid rgb(173, 220, 196);
+}
+.PopUpAddAccount .addAccountCheckbox {
+	margin-top: 12px;
+	margin-left: 83px;
+	width: 16px;
+	height: 16px;
+}
+#autoAssignClient>p {
+	margin-left: 10px;
+	line-height: 16px;
+}
+.PopUpAddAccount>button {
+	width: 84px;
+	height: 28px;
+	background-color: white;
+	border: 1px solid #bfc4c8;
+	color: #bfc4c8;
+	outline: medium;
+	margin-top: 40px;
+}
+.PopUpAddAccount>.concel {
+	margin-left: 193px;
+	margin-right: 38px;
+}

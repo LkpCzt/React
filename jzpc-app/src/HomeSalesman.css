@@ -1,0 +1,17 @@
+
+.HomeSalesman>ul{
+	width: 304px;
+	margin-left: 239px;
+	margin-top: -70px;
+}
+.HomeSalesman>ul>li{
+	height: 28px;
+}
+.HomeSalesman>ul>li>span{
+	line-height: 28px;
+	font-size: 14px;
+	color: #abadb3;
+}
+.HomeSalesman>ul>li>span:last-child{
+	float: right;
+}

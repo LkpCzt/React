@@ -1,0 +1,35 @@
+.PopUpJudgment,.PopUpJudgmentContent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin:  auto;
+	background-color: white;
+	z-index: 104;
+	width: 400px;
+	height: 150px;
+}
+.PopUpJudgment>p,.PopUpJudgmentContent>p{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.PopUpJudgment>.btn,.PopUpJudgmentContent>.btn{
+	width: 84px;
+	height: 28px;
+	border: 1px solid #bfc4c8;
+	background-color: white;
+	margin-top: 50px;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 28px;
+}
+.PopUpJudgment>.concel,.PopUpJudgmentContent>.concel{
+	margin-left: 100px;
+	margin-right: 32px;
+}
+.PopUpJudgment>.confirm,.PopUpJudgmentContent>.confirm{
+	color: white;
+	background-color: #04be5b;
+}

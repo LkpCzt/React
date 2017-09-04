@@ -1,0 +1,48 @@
+.PopUpFollowUp {
+	width: 587px;
+	height: 380px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 20px 5px #e2e2e2;
+}
+.PopUpFollowUp .box {
+	display: inline-block;
+	border-right: 20px solid white;
+	border-right-width: 20px;
+	border-top: 9px solid transparent;
+	border-bottom: 9px solid transparent;
+	border-top-width: 9px;
+	border-bottom-width: 9px;
+	position: absolute;
+	top: 0px;
+	left: -20px;
+}
+.followUp-content {
+	width: 450px;
+	height: 270px;
+	border: 1px solid #f1f1f1;
+	margin: 0 auto;
+	margin-top: 54px;
+	padding-top: 16px;
+	padding-left: 14px;
+	padding-right: 30px;
+	padding-bottom: 21px;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+.PopUpFollowUpCell {
+	margin-bottom: 30px;
+}
+.PopUpFollowUpCell>.cellTop {
+}
+.PopUpFollowUpCell>.cellTop>span {
+	display: inline-block;
+}
+.PopUpFollowUpCell>.cellTop>span:first-child {
+	margin-right: 35px;
+}
+.PopUpFollowUpCell>.cellBottom {
+    word-wrap: break-word;
+}

@@ -1,0 +1,50 @@
+.PopUpGJ {
+	width: 600px;
+	height: 406px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	z-index: 104;
+}
+.PopUpGJ>span {
+	display: inline-block;
+	width: 57px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #32405f;
+	text-align: right;
+	margin-right: 17px;
+	margin-left: 45px;
+}
+.GJtr1 {
+	margin-top: 60px;
+	margin-bottom: 32px;
+}
+.PopUpGJ>select {
+	width: 372px;
+	outline: medium;
+}
+.PopUpGJ>textarea {
+	width: 372px;
+	height: 149px;
+	outline: medium;
+	resize: none;
+}
+.PopUpGJ>button {
+	width: 84px;
+	height: 28px;
+	background-color: white;
+	border: 1px solid #bfc4c8;
+	color: #bfc4c8;
+	outline: medium;
+	margin-top: 49px;
+}
+.PopUpGJ>.concel {
+	margin-left: 193px;
+	margin-right: 38px;
+}

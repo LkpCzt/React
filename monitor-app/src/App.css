@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: #0e1b24;
+    width: 100vmax;
+    height: 56.25vmax;
+}
+
+.normal {
+    border: 1px solid #224c70;
+    box-sizing: border-box;
+}
+
+.left {
+    display: inline-block;
+    width: 25.521vw;
+    height: 54.17vw;
+    margin-top: 1.09vw;
+    margin-left: 0.99vw;
+    vertical-align: top;
+}
+
+.center {
+    display: inline-block;
+    width: 41.50vw;
+    height: 54.17vw;
+    margin-top: 1.09vw;
+    margin-left: 0.94vw;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    width: 28.70vw;
+    height: 54.17vw;
+    margin-top: 1.09vw;
+    margin-left: 1.09vw;
+    vertical-align: top;
+}
+
+
+/* 每日短信发送量模块 */
+
+.dailySMS {
+    width: 24.95vw;
+    height: 22.24vw;
+    margin-left: auto;
+    margin-right: 0;
+    background: url('imgs/dailySMS-bg.png');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.dailySMS-top {
+    margin-top: 2.1875vw;
+    color: #53feff;
+    font-size: 18px;
+}
+
+.dailySMS-middle {
+    margin-top: 3.4375vw;
+    color: #b2fefe;
+    font-size: 39px;
+}
+
+.dailySMS-middle span {
+    color: #299699;
+    font-size: 19px;
+}
+
+.dailySMS-bottom {
+    margin-top: 2.1875vw;
+    color: #ff4a8f;
+    font-size: 18px;
+}
+
+
+/* 每分钟短信发送量模块 */
+
+.minuteSMS,
+.hourSMS {
+    width: 100%;
+    height: 14.843vw;
+    margin-top: 1.04vw;
+    background-color: #102635;
+}
+
+.hourSMS {
+    margin-top: 0.885vw;
+}
+
+.ring {
+    width: 10.26vw;
+    height: 10.26vw;
+    display: inline-block;
+    background-color: cyan;
+    margin-left: 2.292vw;
+    margin-top: 2.292vw;
+}
+
+.ring-right {
+    width: 11.823vw;
+    /* height: 3.073vw; */
+    height: 13.021vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ring-title {
+    width: 100%;
+    height: 3.073vw;
+    display: inline-block;
+    line-height: 3.073vw;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e94884;
+    overflow: hidden;
+}
+
+.title-img {
+    width: 1.667vw;
+    height: 1.667vw;
+    display: inline-block;
+    margin-top: 0.703vw;
+    vertical-align: top;
+    background: url('imgs/icon.png');
+    background-size: 10.052vw 3.23vw;
+}
+
+.minuteSMS .title-img {
+    background-position: -0.104vw -0.208vw;
+}
+
+.hourSMS .title-img {
+    background-position: -4.0104vw -0.208vw;
+}
+
+.ring-bottom {
+    width: 7.656vw;
+    height: 8.229vw;
+    margin: 0 auto;
+}
+
+.ring-bottom li {
+    list-style: none;
+    height: 2.743vw;
+    line-height: 2.743vw;
+    background: url('imgs/ring-kuang.png') no-repeat;
+    background-size: 100% 100%;
+    color: #bafafb;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.ring-bottom li:nth-child(1) {
+    background-size: 80% 80%;
+    background-position: 50% 0;
+    font-size: 12px;
+    line-height: 2.1944vw;
+    /* padding-top: 0.3vw; */
+    opacity: 0.5;
+}
+
+.ring-bottom li:nth-child(2) {
+    background-size: 90% 90%;
+    background-position: 50% 0;
+    font-size: 13px;
+    line-height: 2.4687vw;
+    /* padding-top: 0.3vw; */
+    opacity: 0.8;
+}
+
+
+/* 折线图模块 */
+
+.lineChart {
+    width: 100%;
+    height: 22.24vw;
+}
+
+
+/* 地图模块 */
+
+.map {
+    height: 30.52vw;
+    margin-top: 1.04vw;
+    position: relative;
+}
+
+.mapTop {
+    width: 100%;
+    height: 3.65vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #12273a;
+    border-bottom: 1px solid #224c70;
+}
+
+.mapTopLeft {
+    display: inline-block;
+    width: 40.28%;
+    height: 100%;
+    border-right: 1px solid #224c70;
+    vertical-align: top;
+}
+
+.mapTopCenter {
+    display: inline-block;
+    width: 40.53%;
+    height: 100%;
+    border-right: 1px solid #224c70;
+    vertical-align: top;
+}
+
+.mapTopRight {
+    display: inline-block;
+    width: 18%;
+    height: 100%;
+}
+
+.mapTop-title {
+    height: 50%;
+    text-align: center;
+    font-size: 12px;
+    color: #e0437e;
+    padding-top: 0.5vw;
+    box-sizing: border-box;
+}
+
+.mapTop-number {
+    height: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+/* 详情信息模块 */
+
+.details {
+    width: 100%;
+    height: 53.80vw;
+    background-color: #102635;
+    font-size: 16px;
+}
+
+.details-title {
+    width: 100%;
+    height: 6.042vw;
+    padding-top: 2.292vw;
+    padding-left: 3.125vw;
+    box-sizing: border-box;
+}
+
+.details-title li {
+    list-style: none;
+    float: left;
+}
+
+.details-title li:nth-child(1) {
+    color: white;
+}
+
+.details-title li:nth-child(2) {
+    color: #de3332;
+}
+
+.details-title li:nth-child(3) {
+    color: #fea538;
+}
+
+.details-title li>span {
+    display: inline-block;
+    width: 1.042vw;
+    height: 1.042vw;
+    background: url('imgs/icon.png');
+    background-size: 10.052vw 3.23vw;
+}
+
+.details-title li:nth-child(1)>span {
+    background-position: -5.1042vw -1.9271vw;
+}
+
+.details-title li:nth-child(2)>span {
+    background-position: -6.3021vw -1.9792vw;
+}
+
+.details-title li:nth-child(3)>span {
+    background-position: -7.7604vw -2.03vw;
+}
+
+.details-config {
+    height: 9.0625vw;
+}
+
+.details-config-left {
+    display: inline-block;
+    width: 13.33vw;
+    height: 100%;
+    float: left;
+}
+
+.computer {
+    display: inline-block;
+    width: 7.292vw;
+    height: 5.208vw;
+    margin-left: 3.4375vw;
+    background: url('./imgs/computer.png');
+    background-size: 100%;
+    position: relative;
+}
+
+.computer-center {
+    display: inline-block;
+    width: 1.5593vw;
+    height: 1.25vw;
+    background-color: cyan;
+    position: absolute;
+    top: 1.5625vw;
+    left: 2.8646vw;
+}
+
+.details-config-left p {
+    padding-left: 0.7292vw;
+    text-align: center;
+}
+
+.details-config-left p:nth-of-type(1) {
+    height: 1.7vw;
+    color: #01a480;
+}
+
+.details-config-left p:nth-of-type(2) {
+    height: 1.3vw;
+    line-height: 1.3vw;
+    color: white;
+}
+
+.dividing-line {
+    display: inline-block;
+    width: 0.15625vw;
+    height: 100%;
+    float: left;
+    background: url('./imgs/dividing-line.png');
+}
+
+.details-config-right {
+    display: inline-block;
+    width: 13.33vw;
+    height: 100%;
+    float: left;
+    padding-left: 1.042vw;
+    padding-top: 1.042vw;
+    box-sizing: border-box;
+}
+
+.details-config-right-icon {
+    display: inline-block;
+    width: 1.14583vw;
+    height: 1.14583vw;
+    background-color: cyan;
+    vertical-align: top;
+    margin-top: 0.208335vw;
+    margin-right: 0.208335vw;
+    background: url('./imgs/icon.png');
+    background-size: 10.052vw 3.23vw;
+}
+
+.details-config-right>div:nth-child(1)>.details-config-right-icon {
+    background-position: -0.1042vw -1.9vw;
+}
+
+.details-config-right>div:nth-child(2)>.details-config-right-icon {
+    background-position: -4.01012vw -2.03125vw;
+}
+
+.details-config-right>div:nth-child(3)>.details-config-right-icon {
+    background-position: -1.40625vw -2.03125vw;
+}
+
+.details-config-right>div:nth-child(4)>.details-config-right-icon {
+    background-position: -2.7083vw -2.03125vw;
+}
+
+.details-config-right p {
+    display: inline-block;
+    line-height: 1.5625vw;
+    color: white;
+}
+
+.details-config-right p:nth-of-type(1) {
+    vertical-align: top;
+}
+
+
+/* 右侧水球行 start */
+
+.deatail-content1 {
+    margin-top: 2vw;
+    padding-left: 3.6458vw;
+    padding-right: 3.6458vw;
+}
+
+.title-top {
+    text-align: center;
+    color: #98f5ff;
+    margin-bottom: 0.7292vw;
+}
+
+.title-bottom {
+    color: #d94d85;
+    margin-top: 0.9375vw;
+    text-align: center;
+}
+
+.wateCircle {
+    display: inline-block;
+}
+
+#wateCircle {
+    width: 7.8125vw;
+    height: 7.8125vw;
+}
+
+.fr {
+    float: right;
+}
+
+#partition {
+    width: 7.8125vw;
+    height: 7.8125vw;
+    margin: 0 auto;
+}
+
+
+/* 右侧水球行 end */
+
+
+/* CPU start */
+
+.deatail-content2 {
+    margin-top: 2.25vw;
+    padding-left: 3.5417vw;
+    padding-right: 3.5417vw;
+}
+
+#cpu {
+    width: 7.8125vw;
+    height: 3.90625vw;
+}
+
+#process {
+    width: 7.8125vw;
+    height: 3.90625vw;
+    margin: 0 auto;
+}
+
+
+/* CPU start */
+
+
+/* 温度计 start */
+
+.deatail-content3 {
+    margin-top: 0.9167vw;
+    padding-left: 3.5417vw;
+    padding-right: 3.5417vw;
+}
+
+.deatail-content3>.d-in-block.wdjzj:last-child {
+    float: right;
+}
+
+.d-in-block {
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.wdjzj {
+    text-align: center;
+    width: 7.8125vw;
+}
+.wdjzj>p{
+    width: 9.8125vw;
+    margin-left: -1vw;
+}
+.wdjz {
+    display: inline-block;
+}
+
+.wdjz:first-child {
+    margin-right: 0.5283vw;
+}
+
+.p-center {
+    text-align: center;
+}
+
+.wdj-title {
+    margin-bottom: 0.41667vw;
+    color: #43717c;
+    font-size: 11px;
+}
+
+.wdj-bt {
+    margin-top: 0.3125vw;
+    color: white;
+    font-size: 11px;
+}
+
+.colorb44472 {
+    color: #b44472;
+}
+
+.wdj {
+    width: 1.45833vw;
+    height: 6.09375vw;
+    margin: 0 auto;
+    background: url('./imgs/wdj.png');
+    background-size: 100%;
+    position: relative;
+}
+
+.rotate {
+    transform: rotateY(180deg);
+}
+
+.wdj-top,
+.wdj-bg {
+    display: inline-block;
+    position: absolute;
+    left: 0.41667vw;
+    bottom: 1.04167vw;
+    background-color: #dd5590;
+    width: 0.3125vw;
+    height: 2.604167vw;
+}
+
+.wdj-bg {
+    background-color: #386871;
+    height: 4.947917vw;
+    border-top-right-radius: 0.20833vw;
+    border-top-left-radius: 0.20833vw;
+}
+
+.wdj-bottom {
+    display: inline-block;
+    width: 1.04167vw;
+    height: 1.04167vw;
+    position: absolute;
+    left: 0.052083vw;
+    bottom: 0.052083vw;
+    background-color: #dd5590;
+    border-radius: 0.52083vw;
+}
+
+
+/* 温度计 end */

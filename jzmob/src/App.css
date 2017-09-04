@@ -1,0 +1,82 @@
+.App {
+  font-size: 40px;
+}
+
+.font10 {
+	font-size: 10px;
+	line-height: 10px;
+}
+[data-dpr="2"] .font10 {
+    font-size: 20px;
+	line-height: 20px;
+}
+
+[data-dpr="3"] .font10 {
+    font-size: 30px;
+	line-height: 30px;
+}
+.font12 {
+	font-size: 12px;
+	line-height: 12px;
+}
+[data-dpr="2"] .font12 {
+    font-size: 24px;
+	line-height: 24px;
+}
+
+[data-dpr="3"] .font12 {
+    font-size: 36px;
+	line-height: 36px;
+}
+.font14 {
+	font-size: 14px;
+	line-height: 14px;
+}
+[data-dpr="2"] .font14 {
+    font-size: 28px;
+	line-height: 28px;
+}
+
+[data-dpr="3"] .font14 {
+    font-size: 42px;
+	line-height: 42px;
+}
+.font15 {
+	font-size: 15px;
+	line-height: 15px;
+}
+[data-dpr="2"] .font15 {
+    font-size: 30px;
+	line-height: 30px;
+}
+
+[data-dpr="3"] .font15 {
+    font-size: 45px;
+	line-height: 45px;
+}
+.font18 {
+	font-size: 18px;
+	line-height: 18px;
+}
+[data-dpr="2"] .font18 {
+    font-size: 36px;
+	line-height: 36px;
+}
+
+[data-dpr="3"] .font18 {
+    font-size: 54px;
+	line-height: 54px;
+}
+.font36{
+	font-size: 36px;
+	line-height: 36px;
+}
+[data-dpr="2"] .font36 {
+    font-size: 72px;
+	line-height: 72px;
+}
+
+[data-dpr="3"] .font36 {
+    font-size: 108px;
+	line-height: 108px;
+}

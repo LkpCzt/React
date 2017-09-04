@@ -1,0 +1,24 @@
+.table-item{
+    width:930px;
+    height:400px;
+    background-color: cyan;
+    margin-left:210px;
+    margin-top:50px;
+}
+.table-item ol{
+    padding-top:40px;
+}
+.table-item li{
+    float: left;
+    list-style-type: none;
+    padding-left:10px;
+    padding-right:10px;
+    height:40px;
+    line-height:40px;
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.table-item li:last-child{
+    border-right:1px solid #000;
+}

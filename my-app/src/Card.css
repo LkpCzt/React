@@ -1,0 +1,29 @@
+.card{
+    width: 150px;
+    height: 34px;
+    background-color: white;
+    margin: 0 auto;
+    padding:14px;
+    border: 1px solid #ddd;
+    display: flex;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+.card img{
+    width:40px;
+    height:40px;
+    margin-top:-3px;
+}
+.card-aside{
+    width:100px;
+    height:40px;
+    margin-left:10px;
+    margin-top:-3px;
+    /*background-color: purple;*/
+    text-align: center;
+}
+.card-description{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,19 @@
+.paging-bg{
+    width: 400px;
+    height:60px;
+    float: right;
+    margin-right:30px;
+    line-height:60px;
+    font-size:14px;
+}
+.current-num{
+    width:30px;
+    height:18px;
+    border: 1px solid #000;
+}
+.page{
+    display: inline-block;
+    color: #86cde4;
+    cursor: pointer;
+    height:60px;
+}

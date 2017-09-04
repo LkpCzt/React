@@ -1,0 +1,96 @@
+.main-menu{
+    width:200px;
+    height:1500px;
+    background-color: #3f3f3f;
+    float: left;
+    z-index:101;
+    font-size:14px;
+    position: fixed;
+    top:60px;
+    left:0;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.main-menu-home{
+    height:40px;
+    line-height:40px;
+    color:#999;
+    font-size:14px;
+    padding-left:20px;
+}
+.home-icon{
+    width: 20px;
+    height: 24px;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+    margin-right:10px;
+}
+.main-menu-home span{
+    vertical-align: middle;
+}
+.main-menu-home:hover{
+    color: white;
+    background-color: #3c96d3;
+}
+.menu-item{
+    color: #999;
+    font-weight:normal;
+    height:39px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.menu-item:hover{
+    color: white;
+    background-color: black;
+}
+.main-menu .menu-items:first-child{
+    border-top: 1px solid black;
+}
+.item-icon{
+    width: 20px;
+    height:20px;
+    display: inline-block;
+    margin: 10px 10px;
+    margin-left:20px;
+    vertical-align: middle;
+}
+.item-more{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    float: right;
+    margin-right:10px;
+    margin-top:10px;
+}
+.sub-items{
+    display: none;
+}
+.sub-items.hidden{
+    display: block;
+}
+.sub-item{
+    height:39px;
+    line-height:39px;
+    border-bottom: 1px solid black;
+    padding-left:50px;
+    color: #999;
+    cursor: pointer;
+}
+.sub-item:hover{
+    color: white;
+    background-color: black;
+}
+.sub-item-selector{
+    color: white;
+    background-color: #3c96d3;
+}
+.sub-item-selector:hover{
+    color: white;
+    background-color: #3c96d3;
+}

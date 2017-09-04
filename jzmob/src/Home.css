@@ -1,0 +1,33 @@
+.Home{
+	 padding-top: 1.16rem;
+}
+.Home>ul{
+	width: 8.68rem;
+	margin: 0 auto;
+}
+.Home>ul>li{
+	margin-bottom: 0.44rem;
+}
+.Home>ul>li>span:first-child{
+	color: #333333;
+	display: inline-block;
+	width: 50%;
+}
+.Home>ul>li>span:last-child{
+	color: #999999;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+.Home>input{
+	display: block;
+	width: 5.1333rem;
+	height: 1.04rem;
+	border-radius: 0.52rem;
+	background-color: #04be5b;
+	color: white;
+	margin: 0 auto;
+	border: 0;
+	margin-top: 2.32rem;
+	margin-bottom: 2.32rem;
+}

@@ -1,0 +1,438 @@
+.App {
+    height: 100vh;
+    background: #eeeeee;
+}
+
+.Main {
+    height: 100vh;
+    background: cyan;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    right: 38px;
+}
+
+.info>.header {
+    height: 48px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.info>.header>span:first-child {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 15px;
+}
+
+.info>.header>span:first-child>i {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.info>.header>span:last-child {
+    display: inline-block;
+    line-height: 48px;
+    vertical-align: top;
+    color: #586477;
+}
+
+.ulHidden {
+    display: none;
+}
+
+.info>ul {
+    padding: 17px 0;
+    background-color: white;
+    box-shadow: 0 0 40px #eeeff0;
+    border-radius: 5px;
+}
+
+.info>ul>li {
+    height: 28px;
+    cursor: pointer;
+}
+
+.info>ul>li:hover {
+    background-color: #d0edfc;
+}
+
+.info>ul>li>span:first-child {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-left: 21px;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+
+.info>ul>li>span:first-child>i {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+}
+
+.info>ul>li>span:last-child {
+    display: inline-block;
+    line-height: 28px;
+    margin-right: 21px;
+    vertical-align: top;
+    color: #586477;
+    font-size: 12px;
+}
+
+.MainMenu {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    background-color: #34363c;
+    padding-top: 97px;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.MainMenu ul>li {
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    line-height: 60px;
+    padding-left: 37px;
+    border-left: 6px solid #34363c;
+    cursor: pointer;
+}
+
+.MainMenu-img {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin-right: 22px;
+    vertical-align: middle;
+}
+
+.MainMenu-img>i {
+    width: 16px;
+    height: 18px;
+    font-size: 16px;
+    vertical-align: top;
+}
+.currentSelect {
+    background-color: #295543 !important;
+    color: #04be5b !important;
+    border-left: 6px solid #158d50 !important;
+}
+
+.Content {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #f2f8fa;
+    position: fixed;
+    left: 200px;
+    right: 0;
+    overflow: auto;
+}
+
+.content-title {
+    height: 48px;
+    background-color: white;
+}
+
+.content-title>.title {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 48px;
+    margin-left: 58px;
+    vertical-align: top;
+}
+
+.content-title>.icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-top: 13px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.content-title>.icon>i {
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+}
+.content-title>.btn-back{
+    display: inline-block;
+    margin-left: 38px;
+    line-height: 22px;
+    font-size: 14px;
+    background-color: #f5a623;
+    color: white;
+    padding: 0 16px;
+    margin-top: 12px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.content-title>.btn {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    color: white;
+    line-height: 22px;
+    background-color: #f5a623;
+    border: none;
+    margin-top: 13px;
+    margin-left: 31px;
+    border-radius: 11px;
+    outline: none;
+}
+
+.content-main {
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-top: 37px;
+    min-width: 880px;
+    min-height: 525px;
+    background-color: white;
+}
+
+.InputBox>span,
+.InputList>span {
+    display: inline-block;
+    line-height: 26px;
+    font-size: 14px;
+    color: #717d8a;
+    vertical-align: top;
+}
+
+.InputBox>input,
+.InputList>input {
+    width: 128px;
+    height: 26px;
+    border: 1px solid #d8dee5;
+    box-sizing: border-box;
+}
+
+.InputBox,
+.InputList,
+.InputBtn {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.inputBoxSelect {
+    border: 1px solid rgb(173, 220, 196) !important;
+}
+.InputBox>input:hover{
+    border: 1px solid rgb(173, 220, 196) !important;
+}
+.InputBtn>input {
+    width: 90px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    border: 1px solid #b5b7bd;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bgGreen {
+    background-color: #04be5b !important;
+    color: white !important;
+}
+
+.lineGreen {
+    border: 1px solid #04be5b !important;
+    color: #04be5b !important;
+}
+
+.PageClientList,.PageClient,.PageClientStatis,.PageAccount{
+    position: relative;
+}
+
+.PageClientList>.content-main>ul {
+    padding-left: 20px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #f2f8fa;
+}
+
+.PageClientList>.content-main>ul>li {
+    display: inline-block;
+    width: 90px;
+    line-height: 58px;
+    font-size: 14px;
+    color: #717d8a;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rightBtn {
+    float: right;
+}
+
+.btnVCenter {
+    margin-top: -3px;
+}
+
+.PageClientList-liselect {
+    color: #04be5b !important;
+    border-bottom: 2px solid #04be5b;
+}
+/* 上传按钮 start */
+.ant-upload.ant-upload-select.ant-upload-select-text{
+    vertical-align: top;
+    margin-right: 30px;
+}
+.ant-upload-list.ant-upload-list-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none !important;
+}
+.ant-upload .ant-btn{
+    width: 90px;
+    height: 30px;
+    border: 1px solid #d8dee5;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #04be5b !important;
+    color: #04be5b !important;
+}
+/* 上传按钮 end */
+.content-main>.search {
+    padding-left: 20px;
+    height: 43px;
+    border-bottom: 1px solid #f2f8fa;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.ant-table-thead>tr>th {
+    padding: 0;
+    line-height: 37px;
+    background-color: white;
+    border-bottom: 1px solid #f2f8fa;
+}
+
+.ant-table-tbody>tr>td {
+    padding: 0;
+    line-height: 41px;
+    border-bottom: 1px solid #f2f8fa;
+}
+
+tr>td:first-child,
+tr>th:first-child {
+    padding-left: 20px;
+}
+
+tr>th {
+    font-size: 16px;
+    color: #34363e;
+}
+
+tr>td {
+    font-size: 14px;
+    color: #474a54;
+}
+
+td button {
+    border: none;
+    background-color: transparent;
+    color: #4b91e3;
+    outline: medium;
+    cursor: pointer;
+}
+
+.ant-checkbox-inner {
+    border: 1px solid #717d8a;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus+.ant-checkbox-inner {
+    border-color: #04be5b;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color: white;
+    border-color: #04be5b;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:after {
+    content: '';
+    border: 2px solid #04be5b;
+    border-top: 0;
+    border-left: 0;
+}
+
+.ant-checkbox-inner:after {
+    content: '';
+    border: 2px solid #04be5b;
+    border-top: 0;
+    border-left: 0;
+}
+
+.PageClient>.content-main,
+.PageClientStatis>.content-main,
+.PageAccount>.content-main {
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.HomeSalesman,
+.HomeManager {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.HomeSalesman>p,
+.HomeManager>p {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    color: #34363e;
+    margin-bottom: 20px;
+}
+
+.HomeManager>ul {
+    max-height: 525px;
+    overflow-y: auto;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.closeIcon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 7.5px;
+}
+/* 设置ant design 表格的 td 显示 */
+.tdLimit,.tdLimit1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 100px;
+}
+.tdLimit1{
+    width: 250px;
+    text-align: left;
+}

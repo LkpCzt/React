@@ -1,0 +1,11 @@
+.PopUpCover,.PopUpCoverContent{
+	width: 100%;
+	min-width: 958px;
+	min-height: 760px;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 103;
+}

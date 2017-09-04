@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+/* 禁止默认蓝框 */
+input{
+	outline: medium;
+}
+/* 去除input阴影 start */
+input[type="text"] {
+	-webkit-appearance: none;
+}
+textarea{
+	-webkit-appearance: none;
+}
+/* end */

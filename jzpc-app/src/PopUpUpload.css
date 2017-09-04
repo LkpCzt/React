@@ -1,0 +1,40 @@
+.PopUpUpload {
+	display: inline-block;
+	width: 571px;
+	height: 380px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: white;
+	z-index: 104;
+}
+.PopUpUpload>.message {
+	width: 270px;
+	height: 135px;
+	margin: 0 auto;
+	margin-top: 108px;
+	font-size: 14px;
+}
+.PopUpUpload>.message>p:first-child {
+	margin-bottom: 20px;
+}
+.PopUpUpload>.message>p:first-child>span {
+	color: #04be5b;
+}
+.PopUpUpload>.message>p:last-child {
+	max-height: 80px;
+	word-break: break-word;
+	overflow: hidden;
+}
+.PopUpUpload>input {
+	display: block;
+	width: 84px;
+	line-height: 28px;
+	font-size: 14px;
+	color: white;
+	background-color: #04be5b;
+	border: 0;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 79px;
+}

@@ -1,0 +1,29 @@
+.HomeManager>ul{
+	width: 800px;
+	margin-top: 6px;
+}
+.HomeManager>ul>li{
+	height: 51px;
+}
+.HomeManagerCell{
+	font-size: 14px;
+}
+.cellLeft{
+	float: left;
+}
+.cellRight{
+	float: right;
+	text-align: right;
+}
+.cellTop{
+	color: #34363e;
+}
+.cellBottom{
+	color: #adabb3;
+}
+.cellRight>.cellBottom{
+	overflow: hidden;
+	white-space: nowrap;
+	float: right;
+	width: 400px;
+}

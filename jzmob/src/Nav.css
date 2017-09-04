@@ -1,0 +1,11 @@
+.Nav{
+	height: 1.1733rem;
+	background-color: #e3e9e6;
+}
+.Nav-title{
+	height: 1.0933rem;
+	line-height: 1.0933rem !important;
+	text-align: center;
+	color: #04be5b;
+	background-color: white;
+}

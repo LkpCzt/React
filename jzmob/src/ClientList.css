@@ -1,0 +1,68 @@
+.scroller{
+	position: relative;
+}
+.ClientList{
+	width: 100%;
+}
+	
+.ClientList>li{
+	width: 8.72rem;
+	height: 1.96rem;
+	margin: 0 auto;
+	border-bottom: 0.0133rem solid #e3e9e6;
+	padding-top: 0.56rem;
+	box-sizing: border-box;
+}
+.cellTop{
+	height: 0.4rem;
+	color: #333333;
+}
+.cellBottom{
+	height: 0.32rem;
+	margin-top: 0.1866rem;
+	color: #999999;
+}
+.cellLeft{
+	display: inline-block;
+	width: 50%;
+}
+.cellRight{
+	text-align: right;
+	display: inline-block;
+	width: 50%;
+}
+.cellRight[data-id='2']{
+	color: #f5a623
+}
+.cellRight[data-id='0']{
+	color: #04be5b
+}
+.cellRight[data-id='1']{
+	color: #78afe7
+}
+
+/* #scroller .loading-more {
+    padding: 15px 0 20px;
+    height: 14px;
+    margin: -20px auto 0;
+    text-align: center;
+    color: #777;
+    display: none;
+} */
+#scroller .loading-more,.loading-refresh{
+    line-height: 1rem;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #777;
+    display: block;
+    transform-origin:  0px 0px 0px;
+    opacity: 1;
+    transform:  scale(1,1);
+}
+#scroller .loading-refresh{
+	position: absolute;
+	top: -1rem;
+	left: 0;
+	right: 0;
+}
